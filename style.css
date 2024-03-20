@@ -1,0 +1,117 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #004d99;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Destinations Section */
+#destinations {
+    background: rgba(58, 65, 71, 0.7);
+}
+
+/* Tours Section */
+#tours {
+    background: rgba(56, 53, 42, 0.7);
+}
+
+/* Contact Section */
+#contact {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #004d99;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ffd633;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add your own styles for buttons, links, and other elements */
+.button {
+    background-color: #ffcc00;
+    color: #004d99;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffd633;
+}
